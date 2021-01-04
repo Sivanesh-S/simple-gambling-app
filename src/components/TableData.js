@@ -46,8 +46,8 @@ function TableData() {
       );
       if (selectedRowKeys.length <= 9) {
         setSelected(selectedRowKeys);
+        setCount(selectedRowKeys.length);
       }
-      setCount(selectedRowKeys.length);
     },
     getCheckboxProps: (record) => ({
       disabled: record.name === 'Disabled User',

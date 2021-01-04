@@ -3,6 +3,8 @@ import React, { useEffect, useContext } from 'react';
 import Left from './Left';
 import Right from './Right';
 
+import { Row, Col } from 'antd';
+
 import { store } from '../state/Store';
 
 const apiUrl =
@@ -20,10 +22,16 @@ function Main() {
   }, []);
 
   return (
-    <div>
-      <Right />
-      <Left />
-    </div>
+    <>
+      <Row>
+        <Col span={6}>
+          <Left />
+        </Col>
+        <Col span={18}>
+          <Right />
+        </Col>
+      </Row>
+    </>
   );
 }
 

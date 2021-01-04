@@ -8,8 +8,8 @@ function Left() {
   return (
     <div>
       <MainUI />
-      <Playing9 />
       <Start />
+      <Playing9 />
     </div>
   );
 }

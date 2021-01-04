@@ -8,7 +8,7 @@ function Start() {
   const { state, dispatch } = useContext(store);
 
   return (
-    <div>
+    <div style={{ margin: '20px' }}>
       <Button
         type="primary"
         size="large"

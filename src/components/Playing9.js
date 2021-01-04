@@ -1,8 +1,11 @@
 import React, { useContext } from 'react';
 
+import dollar from '../dollar.svg';
+import slot from '../slot-machine.svg';
+
 import { store } from '../state/Store';
 
-import { Card, Avatar } from 'antd';
+import { Card, Avatar, Row, Col } from 'antd';
 
 const { Meta } = Card;
 
@@ -17,18 +20,28 @@ function Playing9() {
         .map((user, id) => (
           <Card
             key={id}
-            title={user.Name}
+            // title={user.Name}
             size="small"
-            extra={
-              <span>
-                Price: <b>{user.Price} </b>
-              </span>
-            }
           >
-            <Avatar shape="square" size="large" src={user['Profile Image']} />
-            <p>
-              Bet: <b>{user.Bet}</b>
-            </p>
+            <Row>
+              <Col span={6}>
+                <Avatar
+                  shape="square"
+                  size="large"
+                  src={user['Profile Image']}
+                />
+              </Col>
+              <Col span={12}>
+                <p>
+                  <img src={slot} width={20} /> <b>{user.Bet}</b>
+                </p>
+              </Col>
+              <Col span={6}>
+                <p>
+                  <img src={dollar} width={20} /> <b>{user.Price}</b>
+                </p>
+              </Col>
+            </Row>
           </Card>
         ))}
     </div>
