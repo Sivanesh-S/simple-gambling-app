@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/simple-gambling-app/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/simple-gambling-app/static/js/main.f9548a51.chunk.js",
+    "main.js.map": "/simple-gambling-app/static/js/main.f9548a51.chunk.js.map",
+    "runtime-main.js": "/simple-gambling-app/static/js/runtime-main.bc341694.js",
+    "runtime-main.js.map": "/simple-gambling-app/static/js/runtime-main.bc341694.js.map",
+    "static/css/2.cc6972a9.chunk.css": "/simple-gambling-app/static/css/2.cc6972a9.chunk.css",
+    "static/js/2.d5a9882e.chunk.js": "/simple-gambling-app/static/js/2.d5a9882e.chunk.js",
+    "static/js/2.d5a9882e.chunk.js.map": "/simple-gambling-app/static/js/2.d5a9882e.chunk.js.map",
+    "static/js/3.38b4c0ca.chunk.js": "/simple-gambling-app/static/js/3.38b4c0ca.chunk.js",
+    "static/js/3.38b4c0ca.chunk.js.map": "/simple-gambling-app/static/js/3.38b4c0ca.chunk.js.map",
+    "index.html": "/simple-gambling-app/index.html",
+    "static/css/2.cc6972a9.chunk.css.map": "/simple-gambling-app/static/css/2.cc6972a9.chunk.css.map",
+    "static/css/main.8c8b27cf.chunk.css.map": "/simple-gambling-app/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.d5a9882e.chunk.js.LICENSE.txt": "/simple-gambling-app/static/js/2.d5a9882e.chunk.js.LICENSE.txt",
+    "static/media/dice.5ff6597b.svg": "/simple-gambling-app/static/media/dice.5ff6597b.svg",
+    "static/media/dollar.998f4715.svg": "/simple-gambling-app/static/media/dollar.998f4715.svg",
+    "static/media/slot-machine.7f4e78d9.svg": "/simple-gambling-app/static/media/slot-machine.7f4e78d9.svg",
+    "static/media/trophy.b7eae62c.svg": "/simple-gambling-app/static/media/trophy.b7eae62c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc341694.js",
+    "static/css/2.cc6972a9.chunk.css",
+    "static/js/2.d5a9882e.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.f9548a51.chunk.js"
+  ]
+}
