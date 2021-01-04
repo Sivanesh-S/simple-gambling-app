@@ -7,7 +7,7 @@ function Back() {
   const { dispatch } = useContext(store);
 
   return (
-    <div>
+    <div style={{ margin: '20px' }}>
       <Button
         size="large"
         type="primary"

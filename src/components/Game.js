@@ -24,8 +24,8 @@ function Game() {
   return (
     <div>
       <OpposingBet randomNumber={randomNumber} />
-      <Players randomNumber={randomNumber} selectedUsers={updatedUsers} />
       <Back />
+      <Players randomNumber={randomNumber} selectedUsers={updatedUsers} />
     </div>
   );
 }

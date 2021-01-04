@@ -5,8 +5,15 @@ const { Title } = Typography;
 
 function OpposingBet({ randomNumber }) {
   return (
-    <div>
-      <Title>{randomNumber}</Title>
+    <div
+      style={{
+        backgroundColor: '#704ee1',
+
+        textAlign: 'center',
+        padding: '30px',
+      }}
+    >
+      <Title style={{ color: 'white', fontSize: '4em' }}>{randomNumber}</Title>
     </div>
   );
 }
