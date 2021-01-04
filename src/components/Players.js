@@ -1,14 +1,8 @@
-import React, { useContext } from 'react';
-import { store } from '../state/Store';
+import React from 'react';
 
 import { Card, Avatar } from 'antd';
 
-function Players() {
-  const { state } = useContext(store);
-  const { selected, users } = state;
-
-  const selectedUsers = users.filter((user) => selected.includes(user.Name));
-
+function Players({ selectedUsers }) {
   return (
     <div>
       {selectedUsers.map((user, id) => (
@@ -25,6 +19,9 @@ function Players() {
         >
           <div>Betting: {user.Bet}</div>
           <div>Price: {user.Price}</div>
+          <div>Price Won: {user.winPrice}</div>
+          <div>Wins: {user.wins}</div>
+          {user.win && 'Won 😍'}
         </Card>
       ))}{' '}
     </div>

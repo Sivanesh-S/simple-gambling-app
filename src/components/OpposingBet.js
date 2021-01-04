@@ -3,8 +3,7 @@ import { Typography } from 'antd';
 
 const { Title } = Typography;
 
-function OpposingBet() {
-  const randomNumber = Math.floor(Math.random() * 10);
+function OpposingBet({ randomNumber }) {
   return (
     <div>
       <Title>{randomNumber}</Title>
