@@ -21,8 +21,8 @@ function Main() {
 
   return (
     <div>
-      <Left />
       <Right />
+      <Left />
     </div>
   );
 }

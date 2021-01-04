@@ -44,7 +44,9 @@ function TableData() {
         'selectedRows: ',
         selectedRows
       );
-      if (selectedRowKeys.length <= 9) setSelected(selectedRowKeys);
+      if (selectedRowKeys.length <= 9) {
+        setSelected(selectedRowKeys);
+      }
       setCount(selectedRowKeys.length);
     },
     getCheckboxProps: (record) => ({

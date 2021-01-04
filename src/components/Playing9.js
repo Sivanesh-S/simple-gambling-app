@@ -14,8 +14,9 @@ function Playing9() {
     <div>
       {users
         .filter(({ key }) => selected.includes(key))
-        .map((user) => (
+        .map((user, id) => (
           <Card
+            key={id}
             title={user.Name}
             size="small"
             extra={
