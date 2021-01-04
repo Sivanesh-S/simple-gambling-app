@@ -1,0 +1,3 @@
+The demo of this will be available in https://sivanesh-s.github.io/simple-gambling-app. If my portfolio is shown kindly hard reload the page. (ctrl / cmd + shift + r).
+
+Public repo: https://github.com/Sivanesh-S/simple-gambling-app.
